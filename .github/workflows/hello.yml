@@ -11,4 +11,12 @@ jobs:
         run: echo "Hello, Github Actions!"
 
       - name: Print another message
-        run: echo "Ridham Garg"    
+        run: echo "Ridham Garg"
+
+job 2:
+  say-bye:
+   runs-on: ubuntu-latest
+
+   steps:
+    - name: Print bye
+      run: echo "Goodbye from second job"
