@@ -10,6 +10,5 @@ jobs:
       - name: Print message
         run: echo "Hello, Github Actions!"
 
-    steps:
       - name: Print another message
         run: echo "Ridham Garg"    
