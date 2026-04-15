@@ -13,9 +13,10 @@ jobs:
       - name: Print another message
         run: echo "Ridham Garg"
 
-  say-bye:
-   runs-on: ubuntu-latest
 
-   steps:
-    - name: Print bye
-      run: echo "Goodbye from second job"
+  say-bye:
+    runs-on: ubuntu-latest
+
+    steps:
+     - name: Print bye
+       run: echo "Goodbye from second job"
