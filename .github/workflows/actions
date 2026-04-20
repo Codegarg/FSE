@@ -1,0 +1,14 @@
+name: My First Workflow
+
+on: push
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code //clone a repo
+        uses: actions/checkout@v3
+
+      - name: list files
+        run: ls
