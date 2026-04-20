@@ -9,5 +9,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Run tests
-        run: echo "Running tests..."
+      - name: Setup Node
+        uses: actions/setup-node@v
+        with:
+          node-version: '18'
+
+      - name: Check Node version
+        run: node -v
+
+      - name: list files
+        run: ls
