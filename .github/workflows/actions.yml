@@ -17,5 +17,8 @@ jobs:
       - name: Check Node version
         run: node -v
 
+      - name: Download Dependencies
+        run: npm install
+
       - name: list files
         run: ls  
