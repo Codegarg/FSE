@@ -22,4 +22,12 @@ jobs:
         
       - name: run test
         run: npm run test
-     
+
+
+  deploy-app:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: deploy
+        run: echo "deployed"
+
