@@ -6,6 +6,6 @@
     "express": "^5.2.1"
   },
   "scripts":{
-      "test":"echo running tests"
+      "test":"echo running tests && exit 1"
   }
 }
