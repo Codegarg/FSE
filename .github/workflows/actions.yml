@@ -19,6 +19,7 @@ jobs:
 
       - name: Download Dependencies
         run: npm install
-
-      - name: list files
-        run: ls  
+        
+      - name: run test
+        run: npm run test
+     
