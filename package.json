@@ -4,10 +4,12 @@
     "eslint": "^10.2.1",
     "express": "^5.2.1"
   },
-  "scripts":{
-      "test":"echo running tests && exit 1",
-      "lint":"eslint .",
-      "build":"npm build"
+  "scripts": {
+    "test": "echo running tests && exit 1",
+    "lint": "eslint .",
+    "build": "npm build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1"
   }
 }
-
