@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "body-parser": "^2.2.2",
-    "eslint": "^10.2.1",
     "express": "^5.2.1"
   },
   "scripts": {
@@ -10,6 +9,8 @@
     "build": "npm build"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1"
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0"
   }
 }
